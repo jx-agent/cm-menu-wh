@@ -1,0 +1,584 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="app.css" />
+    <title>Cal-MAP Menu</title>
+  </head>
+  <body>
+    <header>
+      <img src="images/CalMap.png"images/calmap.png alt="Cal-MAP_Logo" />
+      <nav class="navbar">
+        
+        <ul class="nav__links">
+          <li data-expand="Home" class="nav--link">Home</li>
+          <li data-expand="About" class="nav--link">About Us</li>
+          <li data-expand="Trainings" class="nav--link">Trainings</li>
+          <li data-expand="Resources" class="nav--link">Resources</li>
+          <li data-expand="Consults" class="nav--link">Consults</li>
+          <li data-expand="Support" class="nav--link">Support</li>
+        </ul>
+      </nav>
+
+      <button class="btn btn--primary">
+        <span>Sign in</span>
+        <div class="arrow">
+          <div class="line arrow--sideUp"></div>
+          <div class="line arrow--sideDown"></div>
+          <div class="line arrow--hoverLine"></div>
+        </div>
+      </button>
+      
+          <div class="tip"></div>
+      <d class="header__expandMenu">
+        <div class="menu__container">
+   
+          <div id="Home"> 
+               <div class="sub__menu">
+             <ul class="subMenu__items">
+              <li class="subMenu--item">
+           <h3 class="title"> Hi there {!CurrentUser.name}! Welcome to Cal-MAP!</h3>
+
+                              
+
+                <img class="icon--production" src="./images/integration.svg" alt="" />
+                <span class="label__container">
+                  <div class="label">
+                  Not sure where to begin? Click Here
+                    <img
+                      class="right--arrow"
+                      src="./images/right-arrow.svg"
+                      alt=""
+                    />
+                  </div>
+                  <div class="label--desc">
+                    We will show you how to start a new consult, set up authentication and use Cal-MAP to it's fullest. 
+                  </div>
+                </span>
+              </li>
+
+                 </ul>
+          </div>
+          </div>
+          
+<div id="About"> 
+               <div class="sub__menu">
+             <ul class="subMenu__items">
+              <li class="subMenu--item">
+                <img class="icon--production" src="./images/reference.svg" alt="" />
+                <span class="label__container">
+                  <div class="label">
+                   Our Services
+                    <img
+                      class="right--arrow"
+                      src="./images/right-arrow.svg"
+                      alt=""
+                    />
+                  </div>
+                  <div class="label--desc">
+                    Clinical pathways and resources for behavioral health conditions
+                  </div>
+                </span>
+              </li>
+               
+                <li class="subMenu--item">
+                <img class="icon--production" src="./images/mission.svg" alt="" />
+                <span class="label__container">
+                  <div class="label">
+                   Our Mission & History
+                    <img
+                      class="right--arrow"
+                      src="./images/right-arrow.svg"
+                      alt=""
+                    />
+                  </div>
+                  <div class="label--desc">
+                    Clinical pathways and resources for behavioral health conditions
+                  </div>
+                </span>
+              </li>
+
+               
+                <li class="subMenu--item">
+                <img class="icon--production" src="./images/team1.svg" alt="" />
+                <span class="label__container">
+                  <div class="label">
+                   Our Team
+                    <img
+                      class="right--arrow"
+                      src="./images/right-arrow.svg"
+                      alt=""
+                    />
+                  </div>
+                  <div class="label--desc">
+                    Clinical pathways and resources for behavioral health conditions
+                  </div>
+                </span>
+              </li>
+
+
+                 </ul>
+          </div>
+          </div>
+  
+          <div id="Trainings"> 
+            <div class="sub__menu">
+              <h3 class="title">Webinars</h3>
+              <ul class="subMenu__items">
+                <li class="subMenu--item">
+                  <img src="./images/video.svg" alt="" />
+                  <span class="label__container">
+                    <div class="label">
+                      Latest Video
+                      <img
+                        class="right--arrow"
+                        src="./images/right-arrow.svg"
+                        alt=""
+                      />
+                    </div>
+                    <div class="label--desc">Watch the most recent webinar</div>
+                  </span>
+                </li>
+
+                <li class="subMenu--item">
+                  <img src="./images/folder2.svg" alt="" />
+                  <span class="label__container">
+                    <div class="label">
+                      All Recordings
+                      <img
+                        class="right--arrow"
+                        src="./images/right-arrow.svg"
+                        alt=""
+                      />
+                    </div>
+                    <div class="label--desc">Series of all webinars</div>
+                  </span>
+                </li>
+
+                <li class="subMenu--item">
+                  <img src="./images/folder3.svg" alt="" />
+                  <span class="label__container">
+                    <div class="label">
+                      Webinar Recordings
+                      <img
+                        class="right--arrow"
+                        src="./images/right-arrow.svg"
+                        alt=""
+                      />
+                    </div>
+                    <div class="label--desc">The other ones</div>
+                  </span>
+                </li>
+
+                <li class="subMenu--item">
+                  <img src="./images/register.svg" alt="" />
+                  <span class="label__container">
+                    <div class="label">
+                      Register
+                      <img
+                        class="right--arrow"
+                        src="./images/right-arrow.svg"
+                        alt=""
+                      />
+                    </div>
+                    <div class="label--desc">Register Here for ALL Webinars</div>
+                  </span>
+                </li>
+              </ul>
+            </div>
+
+            <div class="sub__menu">
+              <h3 class="title">Project ECHO</h3>
+              <ul class="subMenu__items">
+                <li class="subMenu--item">
+                  <img src="./images/course.svg" alt="" />
+                  <span class="label__container">
+                    <div class="label">
+                      Skills ECHO
+                      <img
+                        class="right--arrow"
+                        src="./images/right-arrow.svg"
+                        alt=""
+                      />
+                    </div>
+                    <div class="label--desc">Train on all recordings</div>
+                  </span>
+                </li>
+
+                <li class="subMenu--item">
+                  <img src="./images/course2.svg" alt="" />
+                  <span class="label__container">
+                    <div class="label">
+                      School-Based ECHO
+                      <img
+                        class="right--arrow"
+                        src="./images/right-arrow.svg"
+                        alt=""
+                      />
+                    </div>
+                    <div class="label--desc">Train on all recordings</div>
+                  </span>
+                </li>
+            
+                <li class="subMenu--item">
+                  <img src="./images/course3.svg" alt="" />
+                  <span class="label__container">
+                    <div class="label">
+                      Universal Therapy Skills
+                      <img
+                        class="right--arrow"
+                        src="./images/right-arrow.svg"
+                        alt=""
+                      />
+                    </div>
+                    <div class="label--desc">Train on all recordings</div>
+                  </span>
+                </li>
+               
+                
+                <li class="subMenu--item">
+                  <img src="/images/course4.svg" alt="" />
+                  <span class="label__container">
+                    <div class="label">
+                      Register
+                      <img
+                        class="right--arrow"
+                        src="./images/right-arrow.svg"
+                        alt=""
+                      />
+                    </div>
+                    <div class="label--desc">Register Here for ALL Webinars</div>
+                  </span>
+                </li>
+              </ul>
+              
+            
+            
+            </div>
+        
+            <div class="sub__menu">
+              <h3 class="title">More Info</h3>
+              <ul class="subMenu__items">
+                <li class="subMenu--item">
+                  <img src="./images/badge2.svg" alt="" />
+                  <span class="label__container">
+                    <div class="label">
+                      Cal-MAP Core Certification
+                      <img
+                        class="right--arrow"
+                        src="./images/right-arrow.svg"
+                        alt=""
+                      />
+                    </div>
+                    <div class="label--desc">Get CME Credits</div>
+                  </span>
+                </li>
+
+            
+
+                <li class="subMenu--item">
+                  <img src="./images/badge1.svg" alt="" />
+                  <span class="label__container">
+                    <div class="label">
+                      Badges & Accomplishments 
+                      <img
+                        class="right--arrow"
+                        src="./images/right-arrow.svg"
+                        alt=""
+                      />
+                    </div>
+                    <div class="label--desc">Progress through the program and earn your badges</div>
+                  </span>
+                </li>
+                
+                  <li class="subMenu--item">
+                  <img src="./images/schedule.svg" alt="" />
+                  <span class="label__container">
+                    <div class="label">
+                      Schedule
+                      <img
+                        class="right--arrow"
+                        src="./images/right-arrow.svg"
+                        alt=""
+                      />
+                    </div>
+                    <div class="label--desc">Upcoming Webinars & Project ECHO Dates</div>
+                  </span>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div id="Resources">
+            <ul class="subMenu__items">
+              <li class="subMenu--item">
+                <img class="icon--production" src="./images/documentation.svg" alt="" />
+                <span class="label__container">
+                  <div class="label">
+                    Provider Resources
+                    <img
+                      class="right--arrow"
+                      src="./images/right-arrow.svg"
+                      alt=""
+                    />
+                  </div>
+                  <div class="label--desc">
+                    Clinical pathways and resources for behavioral health conditions
+                  </div>
+                </span>
+              </li>
+
+              <li class="subMenu--item">
+                <img
+                  class="icon--production"
+                  src="./images/edu.svg"
+                  alt=""
+                />
+                <span class="label__container">
+                  <div class="label">
+                    School Resources
+                    <img
+                      class="right--arrow"
+                      src="./images/right-arrow.svg"
+                      alt=""
+                    />
+                  </div>
+                  <div class="label--desc">
+                    Handouts for faculty and educational institutions
+                  </div>
+                </span>
+              </li>
+
+              <li class="subMenu--item">
+                <img
+                  class="icon--production"
+                  src="./images/family.svg"
+                  alt=""
+                />
+                <span class="label__container">
+                  <div class="label">
+                    Family Resources
+                    <img
+                      class="right--arrow"
+                      src="./images/right-arrow.svg"
+                      alt=""
+                    />
+                  </div>
+                  <div class="label--desc">
+                    Handouts and other resources for families
+                  </div>
+                </span>
+              </li>
+            </ul>
+          </div>
+
+          <div id="Consults">
+            <div class="subMenu--item item--one">
+              <img
+                class="icon--production"
+                src="./images/documentation.svg"
+                alt=""
+              />
+              <span class="label__container">
+                <div class="label">
+                  User Guide
+                  <img
+                    class="right--arrow"
+                    src="./images/right-arrow.svg"
+                    alt=""
+                  />
+                </div>
+                <div class="label--desc">
+                  Start your first consult with Cal-MAP
+                </div>
+              </span>
+            </div>
+
+            <div class="sec__links--container">
+              <h4 class="sec__title">Start a Consult</h4>
+
+              <ul class="sec__links">
+                <li class="sec__link">Child Psychiatrist</li>
+                <li class="sec__link">Child Psychologist (Clinical)</li>
+                <li class="sec__link">Care Coordinator</li>
+              </ul>
+            </div>
+
+            <div class="sec__links--container">
+              <h4 class="sec__title">Existing Consults</h4>
+
+              <ul class="sec__links">
+                <li class="sec__link">Consult Letters</li>
+                <li class="sec__link">Consult Requests</li>
+                <li class="sec__link">Request a Follow-up</li>
+              </ul>
+            </div>
+
+            <ul class="subMenu__items sec--menu">
+              <li class="subMenu--item">
+                <img src="./images/reference.svg" alt="" />
+                <span class="label__container">
+                  <div class="label">
+                    Find Psychiatrists
+                    <img
+                      class="right--arrow"
+                      src="./images/right-arrow.svg"
+                      alt=""
+                    />
+                  </div>
+                </span>
+              </li>
+
+              <li class="subMenu--item">
+                <img src="./images/help.svg" alt="" />
+                <span class="label__container">
+                  <div class="label">
+                    Start a Chat
+                    <img
+                      class="right--arrow"
+                      src="./images/right-arrow.svg"
+                      alt=""
+                    />
+                  </div>
+                </span>
+              </li>
+            </ul>
+
+            <ul class="subMenu__items sec--menu">
+              <li class="subMenu--item">
+                <img src="./images/phone.svg" alt="" />
+                <span class="label__container">
+                  <div class="label">
+                    Call-in Request
+                    <img
+                      class="right--arrow"
+                      src="./images/right-arrow.svg"
+                      alt=""
+                    />
+                  </div>
+                </span>
+              </li>
+
+              <li class="subMenu--item">
+                <img src="./images/changelog.svg" alt="" />
+                <span class="label__container">
+                  <div class="label">
+                    Rules and Disclaimers
+                    <img
+                      class="right--arrow"
+                      src="./images/right-arrow.svg"
+                      alt=""
+                    />
+                  </div>
+                </span>
+              </li>
+            </ul>
+          </div>
+
+          <div id="Support">
+            <ul class="subMenu__items sec--menu">
+              <li class="subMenu--item">
+                <img src="./images/request.svg" alt="" />
+                <span class="label__container">
+                  <div class="label">
+                    New Support Ticket
+                    <img
+                      class="right--arrow"
+                      src="./images/right-arrow.svg"
+                      alt=""
+                    />
+                  </div>
+                </span>
+              </li>
+
+              <li class="subMenu--item">
+                <img src="./images/videos.svg" alt="" />
+                <span class="label__container">
+                  <div class="label">
+                    Walkthrough Videos
+                    <img
+                      class="right--arrow"
+                      src="./images/right-arrow.svg"
+                      alt=""
+                    />
+                  </div>
+                </span>
+              </li>
+
+              <li class="subMenu--item">
+                <img src="./images/enterprise.svg" alt="" />
+                <span class="label__container">
+                  <div class="label">
+                    User Guides
+                    <img
+                      class="right--arrow"
+                      src="./images/right-arrow.svg"
+                      alt=""
+                    />
+                  </div>
+                </span>
+              </li>
+            </ul>
+
+            <ul class="subMenu__items sec--menu">
+              <li class="subMenu--item">
+                <img src="./images/status.svg" alt="" />
+                <span class="label__container">
+                  <div class="label">
+                    Tech Support
+                    <img
+                      class="right--arrow"
+                      src="./images/right-arrow.svg"
+                      alt=""
+                    />
+                  </div>
+                </span>
+              </li>
+
+              <li class="subMenu--item">
+                <img src="./images/help.svg" alt="" />
+                <span class="label__container">
+                  <div class="label">
+                    Live Chat
+                    <img
+                      class="right--arrow"
+                      src="./images/right-arrow.svg"
+                      alt=""
+                    />
+                  </div>
+                </span>
+              </li>
+
+              <li class="subMenu--item">
+                <img src="./images/customers.svg" alt="" />
+                <span class="label__container">
+                  <div class="label">
+                    Feedback & Shoutouts
+                    <img
+                      class="right--arrow"
+                      src="./images/right-arrow.svg"
+                      alt=""
+                    />
+                  </div>
+                </span>
+              </li>
+            </ul>
+
+            <div class="more__info">
+              <h4 class="sec__title">Helpful Links</h4>
+              <div class="more__links">
+                <a href="#">Cal-MAP 2.0 Released</a>
+                <a href="#">New studies show xyz</a>
+                <a href="#">California mental health updates</a>
+              </div>
+           
+              
+            </div>
+          </div>
+        </div>
+      </section>
+    </header>
+  </body>
+  <script src="app.js"></script>
+</html>
